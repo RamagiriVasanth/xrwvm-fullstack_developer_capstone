@@ -124,3 +124,53 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.h {
+    color: darkblue;
+}
+
+.h6 {
+    color: blue;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-left: 250px;
+}
+.contact-image {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 100px;
+    
+}
+.banner_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    }
+
+.contact-container::before {
+    content: '';
+    display: block;
+    width: 2px;
+    background-color: #000;
+    height: 40%;
+    margin-bottom: 15px;
+    position: absolute;
+    left: calc(50% - 10px);
+}
+.cars{
+    height: 600px;
+    width: 600px;
+}
+.divider {
+    border: none;
+    border-top: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    width: 90%;
+    align-self: center;
+}
