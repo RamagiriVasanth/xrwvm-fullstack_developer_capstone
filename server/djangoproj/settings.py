@@ -30,8 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://ramagirivasa-8000.theianext-1-labs-prod-misc-tools-us-east-0.'
-    'proxy.cognitiveclass.ai',
+    'xrwvm-fullstack-developer-capstone-opqk.onrender.com',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
