@@ -1,5 +1,4 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import Register from './components/Register/Register';
 import LoginPanel from './components/Login/Login';
 import Dealers from './components/Dealers/Dealers';
