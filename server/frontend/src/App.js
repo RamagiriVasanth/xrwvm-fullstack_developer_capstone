@@ -13,7 +13,6 @@ function App() {
       <Route path="/dealers" element={<Dealers/>} />
       <Route path="/dealer/:id" element={<Dealer/>} />
       <Route path="/postreview/:id" element={<PostReview/>} />
-      <Route path="/" element={<Navigate to="/dealers" replace />} />
     </Routes>
   );
 }
