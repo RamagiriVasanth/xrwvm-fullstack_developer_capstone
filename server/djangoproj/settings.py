@@ -160,5 +160,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
         BASE_DIR,
         'frontend/build/static'
     ),
- ]
+  ]
 APPEND_SLASH = True
