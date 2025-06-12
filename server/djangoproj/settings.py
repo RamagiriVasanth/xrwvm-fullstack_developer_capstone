@@ -31,6 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     'xrwvm-fullstack-developer-capstone-opqk.onrender.com',
+    'dealer-backend-bjay.onrender.com'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
