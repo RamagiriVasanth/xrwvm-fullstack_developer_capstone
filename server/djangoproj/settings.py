@@ -56,13 +56,13 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware'
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'djangoproj.urls'
@@ -150,18 +150,17 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS = [
-    os.path.join(
-        BASE_DIR,
-        'frontend/static'
-    ),
-    os.path.join(BASE_DIR, 'frontend/build'),
-    os.path.join(
-        BASE_DIR,
-        'frontend/build/static'
-    ),
-]
+#STATICFILES_DIRS = [
+    #os.path.join(
+        #BASE_DIR,
+        #'frontend/static'
+    #),
+    #os.path.join(BASE_DIR, 'frontend/build'),
+    #os.path.join(
+        #BASE_DIR,
+        #'frontend/build/static'
+    #),
+#]
 
 APPEND_SLASH = True
 
-print(f"STATIC_ROOT: {STATIC_ROOT}")
